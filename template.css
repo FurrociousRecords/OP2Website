@@ -1,0 +1,170 @@
+body {
+	background-color:black;
+	font-family:'Raleway', sans-serif;
+}
+
+#tekst {
+	width:100%;
+	z-index:+5;
+	margin-top:80px;
+	position:absolute;
+}	
+
+#bloed {
+	z-index: 0;
+	height:500px;
+	position:absolute;
+	margin-top:20px;
+	margin-left:-300px;
+	opacity:0.5;
+}
+
+#bloed2 {
+	z-index: 0;
+	height:900px;
+	position:absolute;
+	margin-top:100px;
+	margin-left:-300px;
+	opacity:0.5;
+}
+
+#ogen {
+	z-index: 0;
+	height:30px;
+	position:absolute;
+	margin-top:90px;
+	margin-left:1100px;
+	
+}
+
+#tijger {
+	z-index: 0;
+	height:300px;
+	position:absolute;
+	margin-top:500px;
+	margin-left:1220px;
+	
+}
+
+#ogen2 {
+	z-index: 0;
+	height:100px;
+	position:absolute;
+	margin-top:430px;
+	margin-left:900px;
+	
+}
+
+header {
+	height:450px;
+	background-color:black;
+}
+
+#effect {
+	margin-top:-230px;
+	height:700px;
+	width:100%;
+	z-index:0;
+	position:absolute;
+
+}
+
+img:hover {
+	opacity:1;
+}
+
+main {
+	background-color:e8e8e8;
+}
+
+.intro {
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:100px;
+	height:200px;
+	width:60%;
+	font-weight:bold;
+	line-height:30px;
+	text-align:center;
+	color:lightgrey;
+	padding:130px;
+	letter-spacing:2px;
+}
+
+h1 {
+	font-family:'Trade Winds', cursive;
+	font-size:30px;
+	color:#771919;
+	letter-spacing:5px;
+}
+
+.bands {
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	height:300px;
+	clear:both;
+}
+
+.bands img {
+	margin-left:135px;
+	margin-top:10px;
+}
+
+.bands img:hover {
+	border:10px solid #771919;
+}
+
+.promoVideo {
+	width:93.3%;
+	height:510px;
+	float:left;
+	text-align:left;
+	padding:50px;
+	border-bottom:45px solid #771919;
+	color:snow;
+	
+}
+
+h2 {
+	color:white;
+	text-align:center;
+	font-family:'Trade Winds', cursive;
+	font-size:50px;
+	
+}
+
+
+.promoVideo p {
+	float:right;
+	width: 45%;
+	margin-top:17px;
+	font-weight:bold;
+	line-height:30px;
+	text-align:right;
+	letter-spacing:2px;
+	color:lightgrey;
+}
+
+
+
+footer {
+	background-color:#771919;
+	color:snow;
+	text-align:right;
+	height:80px;
+	clear:both;
+}
+
+footer p {
+	padding:50px;
+	font-size:12px;
+	float:right;
+	margin-top:-30px;
+}
+
+footer img {
+	float:left;
+	margin-left:50px;
+	opacity:0.5;
+}
